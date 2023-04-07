@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  height: 66px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #be3144;
+  box-shadow: 0 2px 0 rgb(0 0 0 0.16);
+  z-index: 2;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #ffffff;
+}
+
+.navbar-content li {
+  padding: 0 20px;
+  line-height: 66px;
+}
+
+.navbar-content li:hover {
+  cursor: pointer;
+  background-color: rgb(35, 81, 151);
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: #3a3d40;
+}
+
+.welcome-section-name {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+
+.welcome-section-job {
+  margin-top: 16px;
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: rgb(188, 57, 57);
+}
