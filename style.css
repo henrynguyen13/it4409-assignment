@@ -68,3 +68,46 @@ html {
   font-style: italic;
   color: rgb(188, 57, 57);
 }
+
+.projects {
+  text-align: center;
+  padding: 10rem 2rem;
+  background: #45567d;
+}
+
+.projects-title {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid #ffffff;
+  font-size: 4.2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+
+.project-item {
+  margin-bottom: 6rem;
+}
+.project-item-link {
+  box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+  border-radius: 2px;
+  text-decoration: none;
+  margin-bottom: 6rem;
+}
+
+.project-img {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+.project-title {
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
+  color: #f0f0f0;
+  background-color: #303841;
+}
+
+.code {
+  color: #f0f0f0;
+}
