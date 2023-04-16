@@ -11,7 +11,6 @@ function checkCashRegister(price, cash, cid) {
     return { status: "CLOSED", change: cid };
   } else {
     let ans = [];
-
     cid = cid.reverse();
     const map = {
       "ONE HUNDRED": 10000,
